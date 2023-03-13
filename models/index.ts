@@ -20,6 +20,8 @@ if (config.use_env_variable) {
   );
 }
 
+// console.log({ config });
+
 fs.readdirSync(__dirname)
   .filter((file: string) => {
     return (
